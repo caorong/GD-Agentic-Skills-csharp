@@ -1,0 +1,8 @@
+---
+name: godot-autoload-architecture
+description: "C# adaptation of godot-autoload-architecture. Output Godot .NET C# only."
+---
+
+# godot-autoload-architecture — C# Skill
+
+Use `.cs` and `csharp` only. Convert GDScript examples to Godot C# partial classes, lifecycle overrides, `[Export]`, `[Signal]`, typed `GetNode<T>()`, C# events, and PascalCase Godot APIs. Do not emit new `.gd` implementation snippets.
