@@ -1,5 +1,8 @@
 # GD Agentic Skills — C# Edition
 
+> **Original upstream / 原版地址:** https://github.com/thedivergentai/GD-Agentic-Skills  
+> This repository is a downstream C# conversion fork of the original GDScript skill set. It is not currently linked through GitHub's built-in Fork metadata, so upstream synchronization is maintained through tracked upstream commits and sync PRs.
+
 This repository is the Godot .NET / C# conversion baseline for `thedivergentai/GD-Agentic-Skills`.
 
 The upstream skill taxonomy is preserved, but the implementation contract is changed from GDScript to C#:
@@ -9,6 +12,12 @@ The upstream skill taxonomy is preserved, but the implementation contract is cha
 - use `[Export]`, `[Signal]`, typed `GetNode<T>()`, C# events, and PascalCase Godot APIs;
 - do not generate new `.gd` implementation files;
 - keep legacy skill names so existing routing still works.
+
+## Upstream tracking
+
+- Original project: https://github.com/thedivergentai/GD-Agentic-Skills
+- Current tracked upstream commit: see `.upstream-revision`
+- Sync process: see `UPSTREAM.md`
 
 ## Entry points
 
